@@ -5,7 +5,7 @@
 
 This repository contains a set of workflows for building, testing, and releasing Grafana plugins.
 
-These workflows require no modifications to use them:
+These workflows require no modifications to use:
 
 - Create a `.github/workflows` directory in the root directory of your plugin
 - Add the workflows, e.g. `.github/workflows/ci.yml`.
