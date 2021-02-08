@@ -14,3 +14,15 @@ These workflows require no modifications to use:
 
 - **ci.yml:** Build and test your plugin on every commit
 - **release.yml:** Create a GitHub release with the packaged plugin as a release asset. **Requires that you [create an encrypted secret](https://docs.github.com/en/free-pro-team@latest/actions/reference/encrypted-secrets) for your `GRAFANA_API_KEY`.**
+
+## Troubleshooting
+
+### `error Command "sign" not found` when running `yarn sign`
+
+Add the following script to your `package.json`:
+
+```
+"scripts": {
+  "sign": "grafana-toolkit plugin:sign"
+}
+```
