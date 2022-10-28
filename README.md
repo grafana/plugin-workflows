@@ -1,3 +1,10 @@
+
+
+
+
+# Deprecated
+Please take a look in plugin-tools repository for an up-to-date example: https://github.com/grafana/plugin-tools/tree/main/packages/create-plugin/templates/github/ci/.github/workflows
+
 # Plugin workflows for GitHub Actions
 
 [![License](https://img.shields.io/github/license/grafana/plugin-workflows)](LICENSE)
